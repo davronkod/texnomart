@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    scrollbar-width: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #323232;
+}
+
+.bi-geo-alt {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.toshkent {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.duk {
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.shax {
+    color: #fff;
+    margin-left: 370px;
+    position: absolute;
+    margin-top: 5px;
+    background-color: rgba(250, 235, 215, 0.74);
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sot {
+    color: white;
+    margin-left: 570px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.Usullari {
+    color: white;
+    margin-left: 800px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.tel {
+    color: #ffff;
+    padding: 5px 1070px;
+    margin-top: -33px;
+}
+
+.aloq {
+    text-decoration: none;
+    color: white;
+    padding: 10px 950px;
+}
+
+span {
+    margin-left: 47px;
+    margin-top: -17px;
+    position: absolute;
+}
+
+.sel {
+    border-radius: 20px;
+    outline: none;
+    margin-left: 1250px;
+    margin-top: -25px;
+    position: absolute;
+    color: #fff;
+    background-color: black;
+}
+
+.bi-globe-americas {
+    color: white;
+    margin-left: 1230px;
+    position: absolute;
+    margin-top: -23px;
+}
+
+.section {
+    background-color: rgb(237, 233, 233);
+    width: 2000px;
+    height: 160px;
+    margin-left: -40px;
+}
+
+.tex {
+    font-size: 50px;
+    margin-left: 80px;
+    font-weight: 900;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.yuld {
+    font-size: 50px;
+    margin-left: 370px;
+    font-weight: 900;
+}
+
+.btn {
+    margin-left: 450px;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    background-color: orange;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -50px;
+}
+
+.bi-list {
+    font-size: 25px;
+    margin-left: -5px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    transition: .5s;
+}
+
+.bi-x-lg {
+    margin-left: -10px;
+    display: none;
+}
+
+.catalog {
+    width: 300px;
+    height: 100vh;
+    margin-left: -300px;
+    background-color: dodgerblue;
+    border-radius: 0px 10px 10px 0px;
+    transition: .5s;
+    margin-top: 90px;
+}
+
+.catalog>p {
+    padding: 10px 40px;
+}
